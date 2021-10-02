@@ -1,0 +1,15 @@
+.stats_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+  color: var(--blanco);
+  font-weight: bold;
+}
+.row {
+  margin: auto;
+}
+.team_error {
+  font-size: 2rem;
+  color: var(--blanco);
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+.heroe {
+  background-color: transparent;
+  width: 18rem;
+  height: 25rem;
+  perspective: 1000px;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.heroe_contenedor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.heroe:hover .heroe_contenedor {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.heroe_front,
+.heroe_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+/* Style the back side */
+.heroe_back {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--principal);
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+.hero-name {
+  color: var(--blanco);
+  padding: 2px 20px;
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  background-color: #00000099;
+}
+.heroe_back h3 {
+  color: var(--blanco);
+}
+.heroe_back p {
+  color: var(--blanco);
+}

@@ -1,0 +1,24 @@
+.form {
+  text-align: center;
+}
+
+.inicio_titulo {
+  font-size: 3rem;
+  color: var(--blanco);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form label {
+  color: var(--blanco);
+  font-weight: 600;
+}
+.form_error {
+  color: red;
+}
+.form-control {
+  width: 30rem;
+  margin: auto;
+}

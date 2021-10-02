@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  margin-top: 2rem;
+  height: 20rem;
+}
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.img-fluid {
+  width: 20rem;
+  height: 25rem;
+}
+.hero_detail {
+  width: 30rem;
+  margin-left: 3rem;
+  color: var(--blanco);
+}
+.hero_text {
+  color: var(--verde);
+}
+.link {
+  color: var(--blanco);
+}

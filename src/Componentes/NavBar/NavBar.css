@@ -1,0 +1,28 @@
+.nav {
+  background-color: var(--principal);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav-link {
+  color: var(--secundario);
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: var(--blanco);
+}
+.header h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--secundario);
+  font-weight: bold;
+}
+.header span {
+  color: var(--blanco);
+  font-weight: bold;
+}
+.log {
+  background-color: var(--principal);
+  border: none;
+}

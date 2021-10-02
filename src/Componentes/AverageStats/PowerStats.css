@@ -1,0 +1,15 @@
+.table {
+  width: 40rem;
+  height: 2rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  .table {
+    width: 20rem;
+  }
+}
+
+.title {
+  text-align: right;
+}

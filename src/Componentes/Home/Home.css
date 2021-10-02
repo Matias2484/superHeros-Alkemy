@@ -1,0 +1,11 @@
+.form-inline {
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+.btn {
+  color: var(--blanco);
+}
+.row {
+  padding-bottom: 3rem;
+}
